@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc
+
+            usar px e em recomendas pela w3c
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmenti é 1em
+            */
+            font-size: 1em;
+
+            /*font-size é o tamanho das letras*/
+            /*
+            font-size: 17px;*/
+            /*peso da fonte*/
+            /*
+            font-weight: normal;
+            /*estilo do testo*/
+           /* font-style: italic;
+            /*testo sublinhado*/
+            /*text-decoration: underline;*/
+            
+        }
+
+        h1{
+            
+            /**shorthand font 
+            
+            font-style => font-weight => font-size => font-family;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic;
+
+            */
+            font:italic bold 3em Arial, Helvetica, sans-serif;
+        }
+
+        h2{
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes em CSS</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Distinctio, ad dicta ut harum magnam dolorem? Libero repudiandae
+            eligendi cupiditate rem totam nulla. Minima aut accusantium
+            quibusdam autem illo. Neque, velit.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Sint sit commodi a doloribus maxime, quasi blanditiis autem
+            aperiam itaque velit eius unde et tempore numquam explicabo
+            officiis ducimus, quas porro!
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Distinctio, ad dicta ut harum magnam dolorem? Libero repudiandae
+            eligendi cupiditate rem totam nulla. Minima aut accusantium
+            quibusdam autem illo. Neque, velit.
+        </p>
+        <h2>Subtitulo de exercicios</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Distinctio, ad dicta ut harum magnam dolorem? Libero repudiandae
+            eligendi cupiditate rem totam nulla. Minima aut accusantium
+            quibusdam autem illo. Neque, velit.
+        </p>
+</body>
+</html>
